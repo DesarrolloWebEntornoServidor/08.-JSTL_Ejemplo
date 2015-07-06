@@ -95,6 +95,13 @@ public class Empleado implements Serializable {
 	public void setDeptno(long deptno) {
 		this.deptno = deptno;
 	}
+
+	@Override
+	public String toString() {
+		return "Empleado [empno=" + empno + ", ename=" + ename + ", job=" + job
+				+ ", mgr=" + mgr + ", hiredate=" + hiredate + ", sal=" + sal
+				+ ", comm=" + comm + ", deptno=" + deptno + "]";
+	}
 	
 	
 
